@@ -1,28 +1,30 @@
 {
-    "compilerOptions": {
-      "module": "es2015",
-      "target": "es5",
-      "moduleResolution": "node",
-      "experimentalDecorators": true,
-      "lib": [
-        "dom", "es2015"
-      ],
-      "importHelpers": true,
-      "sourceMap": true,
-      "declaration": true,
-      "declarationDir": "dist/types",
-      "rootDir": "src",
-      "outDir": "dist",
-      "sourceRoot": "src",
-      "strict": true,
-      "removeComments": false,
-      "strictNullChecks": true
-    },
-    "include": [
-      "src"
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "lib": [
+      "dom",
+      "esnext"
     ],
-    "exclude": [
-      "node_modules",
-      "test"
-    ]
-  }
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "sourceRoot": "src",
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "esnext"
+  },
+  "exclude": [
+    "node_modules",
+    "test"
+  ],
+  "include": [
+    "src"
+  ]
+}
