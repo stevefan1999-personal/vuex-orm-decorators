@@ -10,3 +10,7 @@ export {
     MorphOneField, MorphToField, MorphToManyField, MorphedByManyField, NumberField,
     PrimaryKey, StringField
 } from './attributes';
+
+export {
+    Mutator, Attribute, Model
+}
