@@ -2,14 +2,13 @@
     "author": "Scotley <scott@inspireweb.co.nz>",
     "description": "Simple Typescript decorators to improve the vuex-orm experience in Typescript by introducing typed property access.",
     "devDependencies": {
-        "@vuex-orm/core": "^0.32.1",
+        "@vuex-orm/core": "^0.33.0",
+        "core-js": "^3.4.2",
         "tslib": "^1.10.0",
-        "typescript": "^3.6.2",
+        "typescript": "^3.7.2",
         "vue": "^2.6.10",
-        "vuex": "^3.1.1"
+        "vuex": "^3.1.2"
     },
-    "es2015": "dist/es2015/index.js",
-    "esnext": "dist/esnext/index.js",
     "files": [
         "dist"
     ],
@@ -35,11 +34,9 @@
         "url": "git+https://github.com/scotley/vuex-orm-decorators.git"
     },
     "scripts": {
-        "build": "npm run build:esnext && npm run build:es2015 && npm run build:esm && npm run build:cjs",
+        "build": "npm run build:cjs && npm run build:esm",
         "build:cjs": "tsc --module commonjs --target es5 --outDir dist/cjs",
-        "build:es2015": "tsc --module es2015 --target es2015 --outDir dist/es2015",
-        "build:esm": "tsc --module es2015 --target es5 --outDir dist/esm",
-        "build:esnext": "tsc --module esnext --target esnext --outDir dist/esnext",
+        "build:esm": "tsc --module esnext --target esnext --outDir dist/esm",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "types": "dist/types/index.d.ts",

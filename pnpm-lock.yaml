@@ -1,0 +1,51 @@
+devDependencies:
+  '@vuex-orm/core': 0.32.5
+  core-js: 3.4.2
+  tslib: 1.10.0
+  typescript: 3.7.2
+  vue: 2.6.10
+  vuex: 3.1.2
+lockfileVersion: 5.1
+packages:
+  /@vuex-orm/core/0.32.5:
+    dependencies:
+      normalizr: 3.4.1
+      vuex: 3.1.2
+    dev: true
+    resolution:
+      integrity: sha512-8RU9OF1GrjKaylTnkH21iYrYioOVFlDpH09KLWTF//xppOiClquWJVfUb30na61eGn4rcwbeoHST3T/9r8w6RQ==
+  /core-js/3.4.2:
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-bUTfqFWtNKWp73oNIfRkqwYZJeNT3lstzZcAkhhiuvDraRSgOH1/+F9ZklbpR4zpdKuo4cpXN8tKP7s61yjX+g==
+  /normalizr/3.4.1:
+    dev: true
+    resolution:
+      integrity: sha512-gei+tJucERU8vYN6TFQL2k5YMLX2Yh7nlylKMJC65+Uu/LS3xQCDJc8cies72aHouycKYyVgcnyLRbaJsigXKw==
+  /tslib/1.10.0:
+    dev: true
+    resolution:
+      integrity: sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
+  /typescript/3.7.2:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
+  /vue/2.6.10:
+    dev: true
+    resolution:
+      integrity: sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
+  /vuex/3.1.2:
+    dev: true
+    resolution:
+      integrity: sha512-ha3jNLJqNhhrAemDXcmMJMKf1Zu4sybMPr9KxJIuOpVcsDQlTBYLLladav2U+g1AvdYDG5Gs0xBTb0M5pXXYFQ==
+specifiers:
+  '@vuex-orm/core': ^0.32.5
+  core-js: ^3.4.2
+  tslib: ^1.10.0
+  typescript: ^3.7.2
+  vue: ^2.6.10
+  vuex: ^3.1.2
